@@ -1,0 +1,16 @@
+app:
+  name: pos-go
+  port: 8081
+  jwt_secret: your-secret-key-here
+  jwt_exp: 24 # jam
+
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password:
+  name: pos_go
+
+log:
+  level: debug
+  format: json
